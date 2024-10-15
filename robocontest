@@ -1,0 +1,212 @@
+#include<iostream>
+
+using namespace std;
+
+int main()
+
+{ 
+
+ int a,b;
+
+ cin>>a>>b;
+
+ cout<<b<<" "<<a;
+
+ 
+
+  return 0;
+
+  }
+
+#include<iostream>
+
+#include<cmath>
+
+using namespace std;
+
+int main()
+
+{
+
+ int a,b; 
+
+ cin>>a;
+
+ if(a==6) cout<<1;
+
+ if(a==5) cout<<2;
+
+ if(a==4) cout<<3;
+
+ if(a==3) cout<<4;
+
+ if(a==2) cout<<5;
+
+ if(a==1) cout<<6;
+
+  return 0;
+
+  }
+
+#include <iostream>
+
+ using namespace std;
+
+ int main() {
+
+     int n;
+
+     cin>>n;
+
+      if (n%4==0  ) cout<<n/2;
+
+      else cout<<"-1";
+
+     return 0;
+
+ }
+
+#include <iostream>
+
+#include <cmath>
+
+ using namespace std;
+
+ int main() {
+
+     int x;
+
+     cin>>x;
+
+     cout<<pow(x,5)+8*(pow(x,4))-5*(pow(x,3))+3*(pow(x,2))+x-12;
+
+     return 0;
+
+ }
+
+#include <iostream>
+
+#include <cmath>
+
+ using namespace std;
+
+ int main() {
+
+     int x;
+
+     cin>>x;
+
+     cout<<(x/2)+1;
+
+     return 0;
+
+ }
+
+#include<iostream>
+
+#include<cmath>
+
+using namespace std;
+
+int main()
+
+{
+
+ int a,b,c; 
+
+ cin>>a>>b>>c;
+
+ if(a>b & a>c) cout<<a;
+
+ if(b>a & b>c) cout<<b;
+
+ if(c>a & c>b) cout<<c;
+
+ 
+
+  return 0;
+
+  }
+
+#include <iostream>
+
+#include <cmath>
+
+ using namespace std;
+
+ int main() {
+
+     float x;
+
+     cin>>x;
+
+     cout.precision(4);
+
+     cout<<(x/100);
+
+     return 0;
+
+ }
+
+#include <iostream>
+
+#include <cmath>
+
+ using namespace std;
+
+ int main() {
+
+     int x;
+
+     cin>>x;
+
+     cout<<1;
+
+     return 0;
+
+ }
+
+
+#include <iostream>
+
+#include <cmath>
+
+ using namespace std;
+
+ int main() {
+
+     int N,A,B;
+
+     cin>>N;
+
+     N=A*B;
+
+     cout<<1;
+
+     return 0;
+
+ }
+
+#include<iostream>
+
+#include<cmath>
+
+using namespace std;
+
+int main()
+
+{ 
+
+ int s=0;
+
+ for(int i=1;i<10;i++)
+
+ { s+=i;
+
+ }
+
+ cout<<s;
+
+  return 0;
+
+  }
